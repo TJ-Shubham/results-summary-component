@@ -1,4 +1,43 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.result-portion{
+    width: 50%;
+    padding: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
