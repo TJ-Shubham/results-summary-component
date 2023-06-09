@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* background-color: hsl(221, 100%, 96%); */
 }
 
 main{
@@ -25,6 +26,121 @@ main{
     padding: 3rem;
     border-radius: 2rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-portion > h2{
+    /* color: #fff; */
+    margin-top: 1rem;
+}
+
+
+.final-result{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        hsla(256, 72%, 46%, 1),
+        hsla(241, 72%, 46%, 0)
+    );
+}
+
+.final-result > h1{
+    color: #fff;
+    font-size: 3.8rem;
+}
+
+.final-result > p{
+    color: hsl(241, 100%, 89%);
+}
+
+.summary-portion{
+    width: 50%;
+    padding: 1rem;
+    
+}
+
+.summary-result{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* gap: 6rem; */
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+/* .summary-result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.summary-action{
+    display: flex;
+    padding-left: 0.5rem;
+    gap: 1rem;
+}
+
+.summary-rating{
+    margin-left: 2rem;
+    
+}
+
+.summary-result:nth-child(2){
+    background-color: hsl(0, 43%, 92%);
+}
+
+.summary-result:nth-child(2) .summary-action p{
+    color: hsl(0, 100%, 67%);;
+}
+
+.summary-result:nth-child(3){
+    background-color: hsl(37, 100%, 94%);
+}
+
+.summary-result:nth-child(3) .summary-action p{
+    color: hsl(39, 100%, 56%);
+}
+
+.summary-result:nth-child(4){
+    background-color: hsl(167, 100%, 95%);
+}
+
+.summary-result:nth-child(4) .summary-action p{
+    color: hsl(166, 100%, 37%);
+}
+
+.summary-result:nth-child(5){
+    background-color: hsl(233, 100%, 95%);
+}
+
+.summary-result:nth-child(5) .summary-action p{
+    color: hsl(234, 85%, 45%);
+}
+
+
+
+button{
+    margin-top: 10px;
+    padding: 1rem;
+    border-radius: 40px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+}
+
+button:hover{
+    background-color: hsla(256, 72%, 46%, 1);
 }
 
 
