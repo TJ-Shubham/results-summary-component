@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:  https://github.com/TJ-Shubham/results-summary-component
-- Live Site URL: 
+- Live Site URL: https://tj-shubham.github.io/results-summary-component/
 
 ## My process
 
