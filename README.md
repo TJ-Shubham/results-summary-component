@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  https://github.com/TJ-Shubham/results-summary-component
-- Live Site URL: https://tj-shubham.github.io/results-summary-component/
+- Solution URL:  [Link](https://github.com/TJ-Shubham/results-summary-component)
+- Live Site URL: [Link](https://tj-shubham.github.io/results-summary-component/)
 
 ## My process
 
