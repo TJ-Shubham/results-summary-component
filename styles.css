@@ -32,7 +32,6 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     background-image: linear-gradient(
         hsl(252, 100%, 67%),
         hsl(241, 81%, 54%)
@@ -136,7 +135,7 @@ main{
 }
 
 .summary-result:nth-child(2) .summary-action p{
-    color: hsl(0, 100%, 67%);;
+    color: hsl(0, 100%, 67%);
 }
 
 .summary-result:nth-child(3){

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Results summary component">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <title>Results summary component</title>
+</head>
+<body class="font-display flex justify-center items-center h-auto md:h-screen">
+  <main class="flex flex-col justify-center max-w-2xl md:flex-row">
+    <section class="flex flex-col justify-between items-center text-center w-full rounded-b-3xl lg:rounded-3xl py-12 px-11 mt-0 bg-gradient-to-b from-color1 to-color2">
+      <p class="text-xl font-medium mt-0 mb-4 text-color3">Your Result</p>
+      <div class="flex flex-col justify-center items-center rounded-full bg-gradient-to-b from-color4 to-color5 h-[180px] w-[180px]">
+        <h1 class="text-white text-7xl font-extrabold">76</h1>
+        <p class="text-color3">of 100</p>
+      </div>
+      <h2 class="text-3xl font-bold text-white mt-4 mb-2">Great</h2>
+      <p class="text-lg text-color3">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="flex flex-col gap-4 w-full p-4 ">
+      <p class="text-2xl font-bold">Summary</p>
+      <div class="flex justify-between p-4 rounded-lg bg-color6">
+        <div class="flex gap-2">
+          <img src="../assets/images/icon-reaction.svg" alt="Reaction logo">
+          <p class="text-color61">Reaction</p>
+        </div>
+        <p class="text-gray-500 font-bold"><b class="text-black">80</b> / 100</p>
+      </div>
+      <div class="flex justify-between p-4 rounded-lg bg-color7">
+        <div class="flex gap-2">
+          <img src="../assets/images/icon-memory.svg" alt="Memory logo">
+          <p class="text-color71">Memory</p>
+        </div>
+        <p class="text-gray-500 font-bold"><b class="text-black">92</b> / 100</p>
+      </div>
+      <div class="flex justify-between p-4 rounded-lg bg-color8">
+        <div class="flex gap-2">
+          <img src="../assets/images/icon-verbal.svg" alt="Verbal logo">
+          <p class="text-color81">Verbal</p>
+        </div>
+        <p class="text-gray-500 font-bold"><b class="text-black">80</b> / 100</p>
+      </div>
+      <div class="flex justify-between p-4 rounded-lg bg-color9">
+        <div class="flex gap-2">
+          <img src="../assets/images/icon-visual.svg" alt="Visual logo">
+          <p class="text-color91">Visual</p>
+        </div>
+        <p class="text-gray-500 font-bold"><b class="text-black">61</b> / 100</p>
+      </div>
+      <button class="mt-2 p-4 mb-6 rounded-[40px] w-full text-lg border-none bg-btncolor text-white font-bold hover:bg-color4" type="submit">Continue</button>
+      <div class="sm:hidden block text-gray-500 text-center">
+        Challenge by <a class="font-bold hover:text-btncolor" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+        Coded by <a class="font-bold hover:text-btncolor" href="https://github.com/TJ-Shubham">Shubham</a>.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
